@@ -1,5 +1,8 @@
 package com.example.demo;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class PayPalPaymentService implements PaymentService {
     @Override
     public void processPayment(double amount) {
